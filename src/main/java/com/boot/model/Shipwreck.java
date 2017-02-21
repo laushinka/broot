@@ -1,17 +1,20 @@
 package com.boot.model;
 
-public class Shipwreck {
+import lombok.Getter;
+import lombok.Setter;
 
-    public class Shipwreck {
-        Long id;
-        String name;
-        String description;
-        String condition;
-        Integer depth;
-        Double latitude;
-        Double longitude;
-        Integer yearDiscovered;
-    }
+@Getter
+@Setter
+public class Shipwreck {
+    Long id;
+    String name;
+    String description;
+    String condition;
+    Integer depth;
+    Double latitude;
+    Double longitude;
+    Integer yearDiscovered;
+
 
     public Shipwreck() {
     }
